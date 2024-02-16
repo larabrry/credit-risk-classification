@@ -4,9 +4,9 @@
 Two machine learning models were built to identify the creditworthiness of borrowers, using a dataset of historical lending activity from a peer-to-peer lending services company.
 
 * The data included factors such as: 
-the loan size and it's interest rate; the borrower's income, debt-to-income ratio, number of accounts, total debt, and if there is derogatory marks against him.
+the loan size and it's interest rate; the borrower's income, debt-to-income ratio, number of accounts, total debt, and if there is derogatory marks against the borrower.
 * The model needed to predict the status of the loan (whether it's a healthy or a high-risk loan) based on the factors above.
-the two machine learning models were built by using the `LogisticRegression` module from <a href=https://scikit-learn.org/stable/index.html>scikit-learn</a> scikit-learn and spliting the dataset into a training and testing sets. The first model had 75,036 healthy loan status and 2500 high-risk datapoints.
+The two machine learning models were built by using the `LogisticRegression` module from <a href=https://scikit-learn.org/stable/index.html>scikit-learn</a> scikit-learn, and spliting the dataset into a training and testing sets. The first model had 75,036 healthy loan status and 2500 high-risk datapoints.
 
 In the second logistic regression model, the dataset was resampled using the `RandomOverSampler` module from <a href=https://imbalanced-learn.org/dev/index.html>imbalanced-learn</a>. This equalized the loan status datapoints into 56277 points for each status.
 
