@@ -13,13 +13,10 @@ In the second logistic regression model, the dataset was resampled using the `Ra
 
 ## Results
 
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
-
 * Machine Learning Model 1:
   * Accuracy: 99%
   * Precision: 100% for healthy loans, 87% in predicting high-risk loans.
   * Recall scores: 100% for hearlthy loans, 95% for high-risk loans.
-
 
 
 * Machine Learning Model 2:
@@ -29,7 +26,6 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
 Model 2 preformed better on accuracy and recall. In fact, Model 2 scored 100% on accuracy, precision, and recall for predicting healthy loans, therefore, I would recommend this model for predicting healthy loans. 
 However, since it's more important to predict the high-risk loans, neither model scored above 87% in predicting such loans.  
 
